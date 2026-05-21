@@ -1,0 +1,116 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trash-0/
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+profile_default/
+ipython_config.py
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# Claude Code
+.claude/
+
+# Environment variables / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Data artifacts (large files — track via DVC / external storage if needed)
+data/
+datamart/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Model artifacts
+model_bank/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# MLflow / experiment tracking
+mlruns/
+mlartifacts/
+
+# Docker
+*.pid
+
+# OS / temp
+Thumbs.db
+ehthumbs.db
+*.tmp
+*.bak
+
+# Documents
+*.pdf
