@@ -114,3 +114,11 @@ ehthumbs.db
 
 # Documents
 *.pdf
+
+# Keep the bundled sample dataset so a fresh clone can run end to end.
+# (Negations must come last: the earlier `data/` and `*.csv` rules would
+# otherwise win, and git cannot re-include a file under an excluded directory.)
+!data/
+data/*
+!data/sample/
+!data/sample/*.csv
